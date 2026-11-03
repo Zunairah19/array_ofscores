@@ -9,5 +9,13 @@ print("Sum:", total)
 if scores:
     average = total / len(scores)
     print("Average:", average)
+
+    maximum = max(scores)
+    minimum = min(scores)
+
+    print("Maximum:", maximum)
+    print("Minimum:", minimum)
+
 else:
     print("No scores provided; average is undefined.")
+    print("Maximum and minimum are undefined.")
